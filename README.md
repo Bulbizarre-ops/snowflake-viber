@@ -7,6 +7,7 @@ chaque sous-dossier correspond à un article, avec un README et des scripts prê
 
 - **001_native_lakehouse** : lakehouse natif (internal stage, directory table, sécurité).
 - **002_cortex_sentiment_verbatims** : génération de verbatims + analyse de sentiment avec cortex ai.
+- **003_conditional_change_event** : sessionisation d'états machine et calcul du mttr.
 
 ## comment utiliser
 
