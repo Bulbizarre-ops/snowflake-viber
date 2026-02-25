@@ -10,6 +10,7 @@ chaque sous-dossier correspond à un article, avec un README et des scripts prê
 - **003_conditional_change_event** : sessionisation d'états machine et calcul du mttr.
 - **004_object_hash_deduplication** : object-hash (OBJECT_CONSTRUCT + EXCLUDE + SHA2) pour dédupliquer sans maintenir une liste de colonnes.
 - **005_cortex_ocr_ai_extract** : ocr cartes grises avec cortex ai (AI_PARSE_DOCUMENT, AI_EXTRACT) — cas d'usage expert assurance.
+- **006_generation_pdf_snowflake** : génération de pdf depuis des données en table (udf Python fpdf + COPY FILES) — enchaînement possible avec 005 pour ocr.
 
 ## comment utiliser
 
